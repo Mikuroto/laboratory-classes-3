@@ -13,7 +13,7 @@ main {
 }
 
 .heading {
-  color: white;
+  color: #333;
   margin: 0;
   font-size: 2.2rem;
 }
@@ -110,4 +110,35 @@ main {
 .button:active {
   background-color: #2e7d32;
   transform: translateY(0);
+}
+
+
+.product-list,
+.product-detail {
+  text-align: left; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.product-list .product-item {
+  margin-bottom: 10px;
+}
+
+.product-detail {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding-left: 15px;
+}
+
+.product-item strong,
+.product-detail strong {
+   margin-right: 5px;
+   display: inline-block;
+}
+.product-item strong:first-of-type,
+.product-detail strong:first-of-type {
+   margin-bottom: 5px;
 }
